@@ -1,0 +1,201 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "Bloxora Documentation",
+  "logo": {
+    "dark": "/logo/dark.svg",
+    "light": "/logo/light.svg"
+  },
+  "favicon": "/favicon.svg",
+  "colors": {
+    "primary": "#3B82F6",
+    "light": "#60A5FA",
+    "dark": "#1E40AF",
+    "anchors": {
+      "from": "#3B82F6",
+      "to": "#1E40AF"
+    }
+  },
+  "topbarLinks": [
+    {
+      "name": "Support",
+      "url": "mailto:support@bloxora.com"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Dashboard",
+    "url": "https://bloxora.com/dashboard"
+  },
+  "tabs": [
+    {
+      "name": "API Reference",
+      "url": "api-reference"
+    },
+    {
+      "name": "Guides",
+      "url": "guides"
+    },
+    {
+      "name": "Security",
+      "url": "security"
+    }
+  ],
+  "anchors": [
+    {
+      "name": "Discord Community",
+      "icon": "discord",
+      "url": "https://discord.gg/bloxora"
+    },
+    {
+      "name": "GitHub",
+      "icon": "github",
+      "url": "https://github.com/bloxora"
+    },
+    {
+      "name": "Status Page",
+      "icon": "signal",
+      "url": "https://status.bloxora.com"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Get Started",
+      "pages": [
+        "introduction",
+        "quickstart",
+        "authentication",
+        "workspace-setup"
+      ]
+    },
+    {
+      "group": "Core Features",
+      "pages": [
+        "features/overview",
+        "features/dashboard",
+        "features/staff-directory",
+        "features/logbook",
+        "features/analytics",
+        "features/sessions",
+        "features/tasks"
+      ]
+    },
+    {
+      "group": "Bloxora Assistant",
+      "pages": [
+        "assistant/overview",
+        "assistant/getting-started",
+        "assistant/commands",
+        "assistant/best-practices"
+      ]
+    },
+    {
+      "group": "Bloxora Smart Search",
+      "pages": [
+        "search/overview",
+        "search/features",
+        "search/privacy"
+      ]
+    },
+    {
+      "group": "Integrations",
+      "pages": [
+        "integrations/overview",
+        "integrations/roblox",
+        "integrations/discord",
+        "integrations/webhooks"
+      ]
+    },
+    {
+      "group": "Administration",
+      "pages": [
+        "admin/workspace-management",
+        "admin/user-roles",
+        "admin/permissions",
+        "admin/billing"
+      ]
+    },
+    {
+      "group": "Security",
+      "pages": [
+        "security/overview",
+        "security/encryption",
+        "security/two-factor-auth",
+        "security/rate-limiting",
+        "security/compliance"
+      ]
+    },
+    {
+      "group": "Guides",
+      "pages": [
+        "guides/getting-started",
+        "guides/workspace-setup",
+        "guides/member-onboarding",
+        "guides/best-practices",
+        "guides/troubleshooting"
+      ]
+    },
+    {
+      "group": "API Documentation",
+      "pages": [
+        "api-reference/introduction",
+        "api-reference/authentication",
+        "api-reference/rate-limits",
+        "api-reference/errors"
+      ]
+    },
+    {
+      "group": "Workspaces",
+      "pages": [
+        "api-reference/workspaces/list",
+        "api-reference/workspaces/create",
+        "api-reference/workspaces/get",
+        "api-reference/workspaces/update",
+        "api-reference/workspaces/delete"
+      ]
+    },
+    {
+      "group": "Members",
+      "pages": [
+        "api-reference/members/list",
+        "api-reference/members/get",
+        "api-reference/members/update",
+        "api-reference/members/remove"
+      ]
+    },
+    {
+      "group": "Logbook",
+      "pages": [
+        "api-reference/logbook/list",
+        "api-reference/logbook/create",
+        "api-reference/logbook/get",
+        "api-reference/logbook/update"
+      ]
+    },
+    {
+      "group": "Support",
+      "pages": [
+        "support/overview",
+        "support/contact",
+        "support/billing",
+        "support/technical"
+      ]
+    }
+  ],
+  "footerSocials": {
+    "x": "https://x.com/bloxora",
+    "github": "https://github.com/bloxora",
+    "discord": "https://discord.gg/bloxora"
+  },
+  "analytics": {
+    "ga4": {
+      "measurementId": "G-XXXXXXXXXX"
+    }
+  },
+  "feedback": {
+    "thumbsRating": true,
+    "suggestEdit": true,
+    "raiseIssue": true
+  },
+  "search": {
+    "prompt": "Search Bloxora documentation..."
+  }
+}
